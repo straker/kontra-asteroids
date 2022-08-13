@@ -1,0 +1,26 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "Simple Asteroids made in Kontra.js",
+  "main": "asteroids.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straker/kontra-asteroids.git"
+  },
+  "author": "Steven Lambert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/straker/kontra-asteroids/issues"
+  },
+  "homepage": "https://github.com/straker/kontra-asteroids#readme",
+  "scripts": {
+    "build": "node ./build.js",
+    "pack": "js13k-packer index.html dist --bundle=false -o asteroids.zip"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.2",
+    "esbuild-plugin-kontra": "^1.0.0",
+    "js13k-packer": "^1.0.2",
+    "kontra": "^8.0.0"
+  }
+}
